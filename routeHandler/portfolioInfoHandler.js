@@ -21,7 +21,7 @@ const contactInfoDocument = new mongoose.model(
 );
 
 router.get("/", async (req, res) => {
-  res.send("Home");
+  res.send("Welcome to Home");
 });
 router.get("/userInfo", async (req, res) => {
   try {
